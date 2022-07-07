@@ -11,7 +11,7 @@ RegisterNetEvent("s:showId", function (id)
     if Config.legacy == true then
         ESX.ShowNotification('~y~' .. tostring(id), "info", 3000)  
     else
-        ShowNotification('~y~' .. tostring(id))
+        ShowNotification(tostring(id))
     end
     
 end)
